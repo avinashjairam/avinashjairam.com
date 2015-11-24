@@ -18,13 +18,33 @@
 
 
 
-<body>
 
+<body data-target="#navbar">
+	<div class="navbar navbar-default">
+		<div class="container">    
+	      <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	         </button>
 
+	         <a class="navbar-brand" href="./index.php"><h2>AVINASH JAIRAM - SOFTWARE DEVELOPER</h2></a>
+	      </div>
+
+		    <div class=" collapse navbar-collapse" id="navbar">
+		        <div id="pushDown">
+		          <ul class="navbar-nav nav">
+		            <li><a href="./index.php">About Me</a></li>
+		            <li class="active"><a href="./resume.php">Resume</a></li>
+		            <li ><a href="./projects.php">Projects</a></li>	            
+		            <li><a  href="./contact.php">Contact</a></li>
+		          </ul>
+		        </div>
+		    </div>        
+		</div>
+	</div>
 
 </body>
-
-
-
 
 <html>
