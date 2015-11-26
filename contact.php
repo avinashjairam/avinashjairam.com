@@ -63,7 +63,7 @@ function test_input($data) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About | Avinash Jairam</title>
+	<title>Contact | Avinash Jairam</title>
 	<meta charset="utf-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link type="text/css" rel="stylesheet" href="./stylesheets/style1.css"/>
@@ -117,7 +117,7 @@ function test_input($data) {
 	</nav>
 
 	<div class="container contentContainer">
-			<div class="row">
+			<div class="row col-md-12 col-md-offset-3">
 				<div class="col-md-6 box" >
 					<form method="post">
                        <div class="form-group">                              
