@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact | Avinash Jairam</title>
+	<title>Projects | Avinash Jairam</title>
 	<meta charset="utf-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link type="text/css" rel="stylesheet" href="./stylesheets/style1.css"/>
@@ -54,93 +54,79 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	
-    <!-- Page Content -->
+        <!-- Page Content -->
     <div class="container">
 
-        <!-- Page Header -->
+        <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
+                <h1 class="page-header">Completed Projects
                 </h1>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Projects Row -->
+        <!-- Project One -->
         <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+            <div class="col-md-7">
+                <a href="www.hcmotivations.com">
+                    <img class="img-responsive" src="./images/hcmotivations.png" alt="HC Motivations Logo">
                 </a>
-                <h3>
-                    <a href="#">Project One</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Two</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Three</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Four</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Five</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Six</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <div class="col-md-5">
+                <h3>HCMotivations.com</h3>
+                <h4>A website for a small business</h4>
+                <p>I built this website for a local business owner with HTML5, CSS3, BOOTSTRAP, JQUERY, PHP, and MYSQL. It advertises the services of the firm.
+                   It features a login system where the owner can sign in and update the upcoming events section.</p>
+                <a class="btn btn-primary" href="www.hcmotivations.com">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
 
-	
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="www.avinashjairam.com">
+                    <img class="img-responsive" src="./images/portfolio.png" alt="screenshot of avinashajairam.com">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>AVINASHJAIRAM.COM</h3>
+                <h4>My online portfolio.</h4>
+                <p>This is the website that you are currently on. It features my profile, resume, and projects.</p>
+                <a class="btn btn-primary" href="https://github.com/avinashjairam/avinashjairam.com">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
 
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="https://github.com/fjam/os-project">
+                    <img class="img-responsive" src="./images/sos.png" alt="sos logo">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>SOS</h3>
+                <h4>Simulation of an Operating System</h4>
+                <p>The project is a simulation of an operating system.
+                 The program works together with an existing program (SOS) that simulates a job stream.
+                 SOS feeds the program a series of jobs and job requests; like a real operating system, 
+                 the program must field those requests and handle the life cycle of each of the jobs, from system entry to termination.</p>
+                <a class="btn btn-primary" href="https://github.com/fjam/os-project">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+       
+        
+       
 	<div class="container contentContainer pushDown" id="footer">
 			<div class="row">
 				<div class="col-md-4 alignLeft" >					
