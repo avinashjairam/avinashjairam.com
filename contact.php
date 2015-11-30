@@ -180,7 +180,7 @@ function test_input($data) {
 									
 					   <ul >
 				      	<li class="socialFooter"><a href="https://www.linkedin.com/in/ajairam"><img class="social" src="./images/linkedin.png"/></a></li>
-				        <li class="socialFooter"><a href="https://github.com/Avinash-Jairam"><img class="social" src="./images/github.png"/></a></li>		
+				        <li class="socialFooter"><a href="https://github.com/avinashjairam"><img class="social" src="./images/github.png"/></a></li>		
 				      </ul>	 					
 				</div>
 
