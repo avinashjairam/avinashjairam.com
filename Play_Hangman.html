@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Play Hangman</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"/></script>
+	<link type="text/css" rel="stylesheet" href="./stylesheet.css"/>
+	<link type="text/css" rel="stylesheet" href="./stylesheets/style1.css"/>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="./hangmanJavaScript.js"></script>
+
+
+
+
+</head>
+
+<body>
+  <div>
+	<nav class="navbar navbar-default">
+	  		<div class="container-fluid">
+	    		<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+	  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	    				<span class="sr-only">Toggle navigation</span>
+	    				<span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+	  				</button>
+	  				<div class="pushRight">
+	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM | SOFTWARE DEVELOPER</h4></a>
+	 				</div>
+				</div>
+
+	    		<!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class=""><a href="./index.php"><h4>About Me </h4><span class="sr-only">(current)</span></a></li>
+			        <li><a href="./resume.php"><h4>Resume</h4></a></li>
+			        <li><a href="./projects.php"><h4>Projects</h4></a></li>
+			        <li><a href="./contact.php"><h4>Contact Me</h4></a></li>		        
+			      </ul>
+			     
+			     <!--
+			      <ul class="nav navbar-nav navbar-right">
+			      	<li><a href="https://www.linkedin.com/in/ajairam"><img class="social" src="./images/linkedin.png"/></a></li>
+			        <li><a href="https://github.com/Avinash-Jairam"><img class="social" src="./images/github.png"/></a></li>		
+			      </ul>-->
+			   </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+ </div>
+
+
+
+<div class="container box">
+	<div class ="row">
+		<div class="col-md-6 col-md-offset-3">
+			<h2>Play Hangman!</h2>
+		</div>
+
+	</div>
+	<div class = "row">
+		<div class="">
+				<div class="col-md-2" id="">
+     			 </div>
+			<div class="col-md-3" id="pics">
+				<img id="pic" src="./hangmanImages/Image1.gif" alt = "current game state"/>
+
+				<br>
+			</div>
+
+			<div id="playingArea" class="col-md-4">
+				<label>Select a category!</label>
+
+				<select class="form-control"  id="menu"  onchange="getCategory(this.value);">
+					<option value="select">Select Category</option>
+					<option value="states">U.S. State</option>
+					<option value="countries">Country</option>
+					<option value="animal">Animal</option>
+					<option value="occupation">Occupation/Job</option>
+					<option value="appliance">Household Appliance</option>
+					<option value="furniture">Furniture</option>
+					<option value="fruit">Fruit</option>
+					<option value="transport">Transportation</option>
+					<option value="music">Musical Instrument</option>
+					<option value="mlbTeams">MLB Teams</option>
+					<option value="nbaTeams">NBA Teams</option>
+					<option value="nhlTeams">NHL Teams</option>
+					<option value="nflTeams">NFL Teams</option>
+				</select>
+
+				
+
+				<div id = "statusMessage">
+				</div>
+				
+				
+
+				<div class="alert alert-danger" id="selectCategory">
+
+					  <strong>Warning!</strong> Please select a category first!.
+				 	
+				</div>
+
+				<br>
+
+			<!-- 	<div id = "statusMessage">
+				</div> -->
+
+				<div class="alert alert-danger" id="statusMessage1">
+					<strong>Bad Guess!</strong> Please try again (a-z)
+				</div>
+
+				<div class="alert alert-success" id="statusMessage2">
+					<strong>Good Guess Guess!</strong> 
+				</div>
+						
+
+			<!-- 	<div class="alert alert-danger" id="invalidInput">
+					<strong>Invalid Input!</strong> Please enter a single letter (a-z)
+				</div> -->
+
+
+				<div id="wordlines">				
+					<pre> _    _    _    _    _    _ </pre>
+				</div>
+
+				<div id="" class="col-md-6 col-md-offset-3">
+
+					<div id="input" >
+						<div class="col-md-5 col-md-offset-4" >
+							<input class="form-control" id="userInput" type="text" maxlength="1"  value ="" autofocus="autofocus" name="input" ></input>
+						</div>
+						<br><br>
+
+						
+						
+					</div>				
+				</div>
+
+			
+					<button id="button" class="form-control" onclick="handleInput();">Enter</button><br>
+					<h4>Misses:</h4>
+				
+					<div id="misses">
+							
+						<pre id="missesBlankLines"> _    _    _    _    _    _ </pre>
+					</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+	<div class="container contentContainer pushDown" id="footer">
+			<div class="row">
+				<div class="col-md-4 alignLeft" >					
+						<ul>
+							<li><span class=" leftFooter glyphicon glyphicon-map-marker"></span>LOCATED IN BROOKLYN, NY</li>
+							<li><a href="./contact.php"><span class="leftFooter glyphicon glyphicon-envelope"></span>EMAIL ME</a></li>					
+							<li id="resume"><a href="./Resume.pdf"><span class="leftFooter glyphicon glyphicon-download-alt"></span>DOWNLOAD RESUME PDF</a></li>
+						</ul>
+					
+				</div>
+
+				<div class="col-md-3" >
+					
+				</div>
+
+				<div class="col-md-5 omaha" >
+									
+					   <ul >
+				      	<li class="socialFooter"><a href="https://www.linkedin.com/in/ajairam"><img class="social" src="./images/linkedin.png"/></a></li>
+				        <li class="socialFooter"><a href="https://github.com/avinashjairam"><img class="social" src="./images/github.png"/></a></li>		
+				      </ul>	 					
+				</div>
+
+				
+			</div>
+		</div>
+
+		<div class="container contentContainer">
+			<div class="row">
+				<div class="col-md-12 center" >
+					<h6>&copyAvinashJairam.com  <?php echo date("Y") ?> </h6>
+				</div>
+			</div>
+		</div>
+	
+
+
+
+
+
+
+
+</body>
+
+</html>
