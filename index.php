@@ -13,10 +13,10 @@
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Latest compiled and minified JavaScript -->
 
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -33,7 +33,7 @@
 				        <span class="icon-bar"></span>
 	  				</button>
 	  				<div class="pushRight">
-	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM | SOFTWARE DEVELOPER</h4></a>
+	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM</h4></a>
 	 				</div>
 				</div>
 
@@ -46,13 +46,9 @@
 			        <li><a href="./contact.php"><h4>Contact Me</h4></a></li>		        
 			      </ul>
 			     
-			     <!--
-			      <ul class="nav navbar-nav navbar-right">
-			      	<li><a href="https://www.linkedin.com/in/ajairam"><img class="social" src="./images/linkedin.png"/></a></li>
-			        <li><a href="https://github.com/Avinash-Jairam"><img class="social" src="./images/github.png"/></a></li>		
-			      </ul>-->
-			   </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
+			    
+			   </div>
+	  </div>
 	</nav>
 
 		<div class="container contentContainer " id="">
@@ -116,6 +112,7 @@
 				
 			</div>
 		</div>
+		  <br><br><br>
 
 		<div class="container contentContainer">
 			<div class="row">

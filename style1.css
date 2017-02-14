@@ -1,4 +1,10 @@
 /*Stylesheet*/
+body{
+ min-width:400px;
+  
+}
+
+
 #resume a{
 	text-decoration: none;
 }
@@ -22,6 +28,10 @@ a:visited{
 	vertical-align: middle;
 	height: 90%;
 	margin: 2.5% 5%;
+}
+
+.nav{
+ height:90px; 
 }
 
 #contact{

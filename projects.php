@@ -32,7 +32,7 @@
 				        <span class="icon-bar"></span>
 	  				</button>
 	  				<div class="pushRight">
-	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM | SOFTWARE DEVELOPER</h4></a>
+	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM</h4></a>
 	 				</div>
 				</div>
 
@@ -69,7 +69,7 @@
         <!-- Project One -->
         <div class="row">
             <div class="col-md-7">
-                <a href="www.hcmotivations.com">
+                <a href="http://www.hcmotivations.com">
                     <img class="img-responsive" src="./images/hcmotivations.png" alt="HC Motivations Logo">
                 </a>
             </div>
@@ -78,7 +78,7 @@
                 <h4>A website for a small business</h4>
                 <p>I built this website for a local business owner with HTML5, CSS3, BOOTSTRAP, JQUERY, PHP, and MYSQL. It advertises the services of the firm.
                    It features a login system where the owner can sign in and update the upcoming events section.</p>
-                <a class="btn btn-primary" href="www.hcmotivations.com">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="http://www.hcmotivations.com">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
@@ -88,7 +88,7 @@
         <!-- Project Two -->
         <div class="row">
             <div class="col-md-7">
-                <a href="www.avinashjairam.com">
+                <a href="http://www.avinashjairam.com">
                     <img class="img-responsive" src="./images/portfolio.png" alt="screenshot of avinashajairam.com">
                 </a>
             </div>
@@ -153,7 +153,7 @@
 				
 			</div>
 		</div>
-
+		  <br><br><br>
 		<div class="container contentContainer">
 			<div class="row">
 				<div class="col-md-12 center" >

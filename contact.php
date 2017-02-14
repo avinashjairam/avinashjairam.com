@@ -76,9 +76,9 @@ function test_input($data) {
 
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src='//www.google.com/recaptcha/api.js'></script>
 
 </head>
 
@@ -94,7 +94,7 @@ function test_input($data) {
 				        <span class="icon-bar"></span>
 	  				</button>
 	  				<div class="pushRight">
-	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM | SOFTWARE DEVELOPER</h4></a>
+	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM</h4></a>
 	 				</div>
 				</div>
 
@@ -187,7 +187,7 @@ function test_input($data) {
 				
 			</div>
 		</div>
-
+		  <br><br><br>
 		<div class="container contentContainer">
 			<div class="row">
 				<div class="col-md-12 center" >

@@ -31,7 +31,7 @@
 				        <span class="icon-bar"></span>
 	  				</button>
 	  				<div class="pushRight">
-	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM | SOFTWARE DEVELOPER</h4></a>
+	 					<a class="navbar-brand" href="./index.php"><h4>AVINASH JAIRAM</h4></a>
 	 				</div>
 				</div>
 
@@ -97,7 +97,7 @@
 				
 			</div>
 		</div>
-
+		  <br><br><br>
 		<div class="container contentContainer">
 			<div class="row">
 				<div class="col-md-12 center" >
